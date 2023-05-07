@@ -1,0 +1,4 @@
+ - control flow for lower state component
+ - be aware with creation of functions
+
+ - useCallback => Can store fetch data to not be created all the time on a useEffect

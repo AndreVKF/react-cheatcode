@@ -1,0 +1,3 @@
+- external images - just need an url
+- local images (public folder) - less performant
+- local images (src folder) - better solution for assets, most optimized

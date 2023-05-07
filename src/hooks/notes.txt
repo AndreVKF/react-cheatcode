@@ -1,0 +1,20 @@
+##### General Rules #####
+- starts with "use"
+- component must be uppercase
+- invoke inside function/component body
+- don't call hooks conditionally
+- set function don't update state immediately
+
+##### Falsy values #####
+false
+0
+""
+null
+undefined
+NaN
+All other values are considered truthy
+
+&& => logical AND => returns first operand if it is falsy, or the second operator if it is truthy
+|| => logical OR => returns the first operand if it is truthy, or the second if the first is falsy
+
+return name || "Anonymous"

@@ -1,0 +1,22 @@
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div > h1,
+div > h2,
+div > h3,
+div > p {
+  text-align: center;
+}
+
+.btn {
+  background: firebrick;
+  color: whitesmoke;
+  padding: 8px;
+  margin: 10px auto;
+  display: block;
+  border-radius: 5px;
+}

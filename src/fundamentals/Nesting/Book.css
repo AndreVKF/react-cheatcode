@@ -1,0 +1,43 @@
+.book {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.book p,
+.book h2 {
+  background-color: #fff;
+}
+
+.book img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.book button {
+  margin-top: 20px;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.book button:hover {
+  background-color: darkgray;
+  color: whitesmoke;
+}
+
+.number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-right: 0.5rem;
+  font-size: 1rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-right-radius: 1rem;
+  background-color: #c35600;
+  color: #fff;
+}

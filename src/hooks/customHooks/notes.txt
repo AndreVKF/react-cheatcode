@@ -1,0 +1,4 @@
+ - same rules as regular hooks
+ - simplify component
+ - re-usable 
+ - must start with "use"
